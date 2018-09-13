@@ -1,0 +1,12 @@
+.leaflet-container {
+    height: 898px;
+    width: 100%;
+    z-index: 99;
+}
+.card-box {
+    position: absolute;
+    top: 75px;
+    right: 0;
+    z-index: 100;
+    width: 400px;
+}
