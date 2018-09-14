@@ -11,8 +11,8 @@ class App extends Component {
       <BrowserRouter>
         <React.Fragment>
           <Navigation/>
-          <Route path="/" exact render={() => (<Landing/>)}/>
-          <Route path="/map" exact render={() => (<MapPage/>)}/>
+          <Route path="/" exact render={ () => (<Landing/>)}/>
+          <Route path="/map" exact render={ () => (<MapPage/>)}/>
         </React.Fragment>
       </BrowserRouter>
     );
